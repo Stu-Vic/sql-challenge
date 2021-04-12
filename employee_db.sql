@@ -31,8 +31,8 @@ CREATE TABLE "dept_manager" (
 );
 
 CREATE TABLE "employees" (
-    "emp_no" INT   NOT NULL,
-	"emp_title_id" VARCHAR NOT NULL,
+    "emp_no" INT   NOT NULL,		
+    "emp_title_id" VARCHAR NOT NULL,
     "birth_date" DATE   NOT NULL,
     "first_name" VARCHAR   NOT NULL,
     "last_name" VARCHAR   NOT NULL,
